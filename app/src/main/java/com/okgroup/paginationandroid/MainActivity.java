@@ -4,13 +4,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
 import com.okgroup.paginationandroid.api.DataModel;
 import com.okgroup.paginationandroid.api.RESTApi;
-import com.okgroup.paginationandroid.api.ResponseModel;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -70,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<ArrayList<DataModel>> call, Response<ArrayList<DataModel>> response) {
                 Log.i("NEILBOTAK", "DATA "+ Arrays.toString(response.body().toArray()));
 
-               
+
                 dataApi = response.body();
                 p = new Paginator(dataApi);
                 setAdapter();
