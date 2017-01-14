@@ -14,7 +14,7 @@ public class Paginator {
     public static   final int ITEM_PERPAGES = 1;
     public static   int ITEM_REMAINING;
     public static   int LAST_PAGE;
-    List<DataModel> dataModels; 
+    List<DataModel> dataModels;
     public Paginator(List<DataModel> data) {
         dataModels = data;
         TOTAL_NUM_ITEMS = dataModels.size();

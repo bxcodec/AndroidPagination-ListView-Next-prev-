@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         prev = (Button) findViewById(R.id.previousBtn);
         prev.setEnabled(false);
 
-//        setAdapter();
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<ArrayList<DataModel>> call, Response<ArrayList<DataModel>> response) {
                 Log.i("NEILBOTAK", "DATA "+ Arrays.toString(response.body().toArray()));
+
+               
                 dataApi = response.body();
                 p = new Paginator(dataApi);
                 setAdapter();

@@ -47,7 +47,12 @@ git clone https://github.com/bxcodec/AndroidPagination-ListView-Next-prev-.git
 Below listed all the library used here.
 
 
-### [fakeapi] (https://jsonplaceholder.typicode.com/posts)
+### [fakeapi] (https://jsonplaceholder.typicode.com)
+
+```bash
+# Rest Get Url
+https://jsonplaceholder.typicode.com/posts
+```
 Fake Online REST API for Testing and Prototyping
 powered by [JSON Server](https://github.com/typicode/json-server) and [lowdb](https://github.com/typicode/lowdb)
 
