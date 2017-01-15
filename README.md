@@ -14,7 +14,7 @@ See [Source](#source) For all the library used
 * [Quick Start](#quick-start)
 * [Source](#source)
 
-<img src="https://raw.githubusercontent.com/bxcodec/AndroidPagination-ListView-Next-prev-/master/ss.png" width="80%"  alt="screenshhot" />
+<img src="https://raw.githubusercontent.com/bxcodec/AndroidPagination-ListView-Next-prev-/master/ss.png" width="40%"  alt="screenshhot" />
 
 
 ## Overview
