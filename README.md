@@ -6,8 +6,6 @@ Developed under Android SDK 17
 
 See [Source](#source) For all the library used
 
-![screenshhot](https://raw.githubusercontent.com/bxcodec/AndroidPagination-ListView-Next-prev-/master/ss.png)
-
 
 ## Index
 
@@ -15,6 +13,9 @@ See [Source](#source) For all the library used
 * [Support](#support)
 * [Quick Start](#quick-start)
 * [Source](#source)
+
+![screenshhot](https://raw.githubusercontent.com/bxcodec/AndroidPagination-ListView-Next-prev-/master/ss.png)
+
 
 
 ## Overview
